@@ -16,6 +16,7 @@ Já temos configurado também o Typescript, Eslint e Prettier.
 }
 ```
 
+- Consistir se já não existe uma ocorrência com esse mesmo Título. Se sim, retornar uma mensagem de erro com HTTP response 400 (badRequest);
 - Acrescentar a esse objeto um ID (numérico) gerado de forma randômica para ser um identificador único para cada novo `book` que for criado;
 - Armazenar esse objeto em uma nova ocorrência num Array em memória;
 - Retornar o objeto criado com a informação de Id e o código HTTP correto;
