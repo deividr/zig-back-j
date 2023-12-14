@@ -16,7 +16,7 @@ Já temos configurado também o Typescript, Eslint e Prettier.
 }
 ```
 
-- Acrescentar a esse objeto um ID gerado de forma randômica para ser um identificador único para cada novo `book` que for criado;
+- Acrescentar a esse objeto um ID (numérico) gerado de forma randômica para ser um identificador único para cada novo `book` que for criado;
 - Armazenar esse objeto em uma nova ocorrência num Array em memória;
 
 ### 2. Crie um endpoint `GET` chamado `/get-book/:id`:
@@ -29,4 +29,4 @@ Já temos configurado também o Typescript, Eslint e Prettier.
 
 - Irá receber um `query param` chamado `name`;
 - Consultar no Array por qualquer elemento que contenha no nome uma `parte` dessa informação. Ex.: Se informado `eDoBo`, o livro que tenha o nome "Nom<b>eDoBo</b>ok" tem que ser selecionado;
-- Retornar o resultado encontrado, se não encontrado nada retornar `null`;
+- Retornar o resultado encontrado, se não encontrado retornar `null`;
